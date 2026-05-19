@@ -18,7 +18,7 @@ document.getElementById('btnEnviar').addEventListener('click', async () => {
         const suscriptionKey = config.languageKey;
         const URL = `${endpoint}/language/:analyze-text?api-version=2023-04-01`;
 
-        const documentoAnlizar = {
+        const documentoAnalizar = {
             kind: "SentimentAnalysis",
             analysisInput: {
                 documents: [
@@ -37,7 +37,7 @@ document.getElementById('btnEnviar').addEventListener('click', async () => {
                 "Ocp-Apim-Subscription-Key": suscriptionKey,
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify(documentoAnlizar)
+            body: JSON.stringify(documentoAnalizar)
         });
 
         if (!response.ok) {
