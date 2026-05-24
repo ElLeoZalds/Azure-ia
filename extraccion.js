@@ -2,6 +2,8 @@
 SERVICIO: AZURE FOUNDRY
 Este servicio permite identificar datos (información) clave en un documento
 Teléfonos, nombres, edad, dirección, etc...*/
+const suscriptionKey = ""
+const endpoint = ""
 
 const url = `${endpoint}/language/:analyze-text?api-version=2023-04-01`
 

@@ -1,3 +1,6 @@
+const suscriptionKey = ""
+const endpoint = ""
+
 const url = `${endpoint}/vision/v3.2/read/analyze`
 const imageURL = "https://image.slidesharecdn.com/eleditorial-220301120619/95/El-editorial-3-638.jpg"
 // const imageURL = "https://azurejhon.w3spaces-preview.com/peru.pdf"

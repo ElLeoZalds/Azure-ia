@@ -1,3 +1,6 @@
+const suscriptionKey = ""
+const endpoint = ""
+
 // Descripción detallada de la imagen
 const url = `${endpoint}/vision/v3.2/analyze?visualFeatures=Description,Tags,Objects`
 const imageURL = "https://www.mindicsalud.com/sites/default/files/styles/blog_full/public/ninos-pelota.jpg"

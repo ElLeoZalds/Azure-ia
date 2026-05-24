@@ -1,3 +1,6 @@
+const suscriptionKey = ""
+const endpoint = ""
+
 const URL = `${endpoint}/language/analyze-text/jobs?api-version=2023-04-01`
 
 async function resumirTexto() {

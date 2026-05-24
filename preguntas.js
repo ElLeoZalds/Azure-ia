@@ -1,3 +1,6 @@
+const suscriptionKey = ""
+const endpoint = ""
+
 // const url = `${endpoint}/language/:query-knowledgebases?projectName=PruebaQA&api-version=2021-10-01`
 const url = `${endpoint}/language/:query-text?api-version=2021-10-01`
 

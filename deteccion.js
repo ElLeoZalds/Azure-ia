@@ -1,3 +1,7 @@
+const suscriptionKey = ""
+const endpoint = ""
+
+
 const url = `${endpoint}/vision/v3.2/analyze?visualFeatures=Objects`
 const imageURL = `https://static.vecteezy.com/system/resources/previews/035/846/121/non_2x/man-job-entrepreneur-sitting-work-manager-office-modern-person-adult-smart-computer-desk-portrait-photo.jpg`
 
